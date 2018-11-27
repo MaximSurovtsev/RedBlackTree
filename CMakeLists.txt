@@ -51,6 +51,7 @@ if(BUILD_EXAMPLES)
     endforeach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
 endif()
 
+
 install(TARGETS RedBlackTree
     EXPORT RedBlackTree-config
     ARCHIVE DESTINATION lib
